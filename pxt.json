@@ -1,0 +1,32 @@
+{
+    "name": "Scott Kelly Mission to Hubble Game",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "scott-kelly-games": "github:Code-Ninjas-Home-Office/scott-kelly-games",
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "pxt.json",
+        "_history"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.53",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
